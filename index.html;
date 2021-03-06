@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head> <!-- This is the Head Element, detailing the title and metatags for the website needed by web browsers and search engines -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width"> <!-- This tag makes it so that the website size changes depending on the device it is viewed on -->
+      <title>Michael Shakarian's Portfolio</title> <!-- This title shows up on the web browser tab -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" /> <!-- this links to the normalize.css style sheet to avoid errors in browsers -->
+  <link href="style.css" rel="stylesheet" type="text/css" /> <!-- this links to the style sheet I've written in the same directory as this page -->
+  </head> <!-- end wrapper for head element -->
+  
+  <body> <!-- this tag begins the body of the webpage -->
+  
+    <header>
+      <h1>Michael Shakarian</h1>
+      <h3>Software Engineering Student</h3>
+      <nav> <!-- The links in this Nav section link to the sections
+        <link href="#intro">Intro</a>||
+        <link href="#about-me">About Me</a>||
+        <link href="#contact">Contact Me</a>
+      </nav>
+    </header>
+  
+    <main>
+      <div id="intro"><!-- Quick Intro Section -->
+      <img src="/images/cropped-falcon-selfie.png">
+        <h2>Hello There!</h2>
+        <p>I'm Michael Shakarian, from Hicksville, NY. Thanks for stopping by my Software Engineering portfolio!</p>
+        <p>I'm currently learning from <a href="http://www.thinkful.com">Thinkful</a> to build a skillset that can add value both personally and professionally. I'll be adding to this page as I learn more, so keep coming back to see my progress!</p>
+        <p>If you've got any: 
+          <ul>
+            <li>tips,</li>
+            <li>tricks,</li>
+            <li>or criticisms (be gentle!)</li> 
+          </ul>
+            <link href="#contact">I'd love to hear from you.</a></p>
+       </div><!-- end wrapper for the intro section -->
+       
+       <hr><!-- a horizontal rule adds an eye-pleasing barrier -->
+       
+       <div id="about-me"><!-- About Me Section -->
+        <h2>About Michael</h2>
+        <p>Ever since I was a young boy I was interested in tech, video games, and the internet. I remember building hobby websites using nothing more than Notepad and some shoddily cobbled HTML code uploaded to <strong>Angelfire</strong> and <strong>Geocities</strong>. This was back before Facebook or even MySpace, where regular people first experienced creating a "Web Presence". I haven't bought a pre-built computer in over 20 years as I prefer to build them myself. That way, I can pick each part individually and I also enjoy the process.</p>
+        <p>I'm a proud nerd and an enormous <i><Star Wars</i> fan, to the point that I taught myself small electronics soldering so that I could build my own replica lightsabers out of parts. I've gutted cheap, name-brand toy lightsabers just to harvest the soundboard from them to put into something a bit more powerful.</p>
+       </div><!-- end wrapper for about me section -->
+       
+       <hr>
+       
+       <div id="contact">
+        <h2>Contact Michael</h2>
+        <p>I can be reached at the following places, in order of preference. Feel free to contact me!</p>
+        
+        <ol>
+          <li><a href="mailto:m.shakarian@gmail.com?subject=I%20Saw%20Your%20Portfolio">Email Me!</a></li>
+          <li><a href="http://www.linkedin.com/in/michaelshakarian">Find me on LinkedIn</a></li>
+          <li><a href="http://www.github.com/mshakarian">Check out my other projects on GitHub</a></li>
+        </ol>
+                
+    </main>
+    
+  </body>
+  
+</html>
