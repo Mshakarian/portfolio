@@ -45,7 +45,7 @@
        
        <hr>
        
-       <div id="contact">
+       <div id="contact"><!-- Contact Section -->
         <h2>Contact Michael</h2>
         <p>I can be reached at the following places, in order of preference. Feel free to contact me!</p>
         
@@ -54,8 +54,12 @@
           <li><a href="http://www.linkedin.com/in/michaelshakarian">Find me on LinkedIn</a></li>
           <li><a href="http://www.github.com/mshakarian">Check out my other projects on GitHub</a></li>
         </ol>
-                
+      </div><!-- end wrapper for Contact section -->           
     </main>
+    
+    <footer>
+      <h3> (c) Michael Shakarian </h3>
+    </footer>
     
   </body>
   
