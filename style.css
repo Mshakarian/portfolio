@@ -1,1 +1,55 @@
+/*----- Structure -----*/
+body{
+  background-color : #acadbc;
+  text-align : center;
+  margin : 0;
+}
 
+header, footer{
+  background-color : #297373;
+  height : 124px;
+  padding : 20px 40px;
+}
+/*----- Horizontal Rules as an Image -----*/
+hr{
+  height : 62px;
+  background-image : url(images/hr-cameron-queen1.png);
+  background-repeat : no-repeat;
+  background-position : center;
+}
+  
+/*----- Typography -----*/
+h1{
+  font-size : 36px;
+  padding : 10px 20px;
+}
+
+h1, h3{
+  font-family : cursive;
+  color : #f79256;
+  font-weight : bold;
+  text-shadow: 1px 1px 2px black;
+}
+
+h3{
+  font-size : 16px;
+}
+
+h2, p{
+  color : #2e282a;
+  font-family : "Trebuchet MS", "Lucida Sans", arial, sans-serif;
+}
+
+h2{
+  font-size : 28px;
+  font-weight : bold;
+}
+
+p{
+  font-size : 20px;
+}
+
+a:link    { color: #4A306D;  }/*----- Cyber Grape -----*/
+a:visited { color: #994636;   }/*----- Chestnut -----*/
+a:hover   { color: #BA1200; }/*----- International Orange Engineering -----*/
+a:active  { color: #fde74c;  }/*----- Minion Yellow -----*/
