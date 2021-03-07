@@ -9,6 +9,7 @@ header, footer{
   background-color : #297373;
   height : 124px;
   padding : 20px 40px;
+  text-align : center;
 }
 /*----- Horizontal Rules as an Image -----*/
 hr{
