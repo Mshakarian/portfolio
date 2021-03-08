@@ -1,4 +1,11 @@
 /*----- Structure -----*/
+body{
+  background-color : #acadbc;
+  margin : 0;
+  width : 100%;
+  padding : 0;
+}
+
 main, ol, ul{
   background-color : #acadbc;
   text-align : justify;
@@ -58,6 +65,10 @@ h2, p, li{
   font-family : "Trebuchet MS", "Lucida Sans", arial, sans-serif;
 }
 
+h2, p{
+  margin-left : 5%;
+}
+
 h2{
   font-size : 56px;
   font-weight : bold;
@@ -75,7 +86,7 @@ nav{
 
 h4{
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-size : 16px;
+  font-size : 18px;
   padding-top: 72px;
 }
 
