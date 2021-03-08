@@ -1,5 +1,5 @@
 /*----- Structure -----*/
-body, ol, ul{
+main, ol, ul{
   background-color : #acadbc;
   text-align : justify;
   margin : auto;
@@ -8,7 +8,7 @@ body, ol, ul{
 
 header, footer{
   background-color : #297373;
-  height : 144px;
+  height : 210px;
   text-align : center;
   margin : 0;
   padding : 0;
@@ -17,6 +17,8 @@ header, footer{
 
 img{
   margin-left : 33%;
+  float : none;
+  vertical-align: baseline;
 }
 
 ol, ul{
@@ -74,7 +76,7 @@ nav{
 h4{
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size : 16px;
-  padding-top: 50%
+  padding-top: 72px;
 }
 
 a:link    { color: #4A306D;  }/*----- Cyber Grape -----*/
