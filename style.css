@@ -1,24 +1,25 @@
 /*----- Structure -----*/
-body{
+body, ol, ul{
   background-color : #acadbc;
-  text-align : center;
-  margin : 0;
+  text-align : justify;
+  margin : auto;
+  width : 66%;
 }
 
 header, footer{
   background-color : #297373;
-  height : 155px;
+  height : 144px;
   text-align : center;
 }
 
-li{
+ol, ul{
   list-style-position: inside;
   text-align : left;
 }
 
 /*----- Horizontal Rulers -----*/
 hr{
-  border-bottom : 20px solid #f79256;
+  border-bottom : 20px solid #993a04;
   width: 75%;
   border-radius : 15px;
   margin-left : auto;
@@ -27,18 +28,19 @@ hr{
   
 /*----- Typography -----*/
 h1{
-  font-size : 24px;
+  font-size : 72px;
+  margin : 20px 40px;
 }
 
 h1, h3{
   font-family : cursive;
-  color : #f79256;
+  color : #993a04;
   font-weight : bold;
   text-shadow: 1px 1px 2px black;
 }
 
 h3{
-  font-size : 16px;
+  font-size : 40px;
 }
 
 h2, p{
@@ -46,7 +48,7 @@ h2, p{
 }
 
 h2{
-  font-size : 36px;
+  font-size : 56px;
   font-weight : bold;
   color : #297373;
   text-shadow : 1px 1px 2px black;
@@ -54,6 +56,10 @@ h2{
 
 p{
   font-size : 20px;
+}
+
+nav{
+  font-size : 36px;
 }
 
 a:link    { color: #4A306D;  }/*----- Cyber Grape -----*/
