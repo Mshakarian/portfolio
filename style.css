@@ -10,6 +10,12 @@ header, footer{
   background-color : #297373;
   height : 144px;
   text-align : center;
+  margin : 0;
+  padding : 0;
+}
+
+img{
+  justify-content : center;
 }
 
 ol, ul{
@@ -20,7 +26,7 @@ ol, ul{
 /*----- Horizontal Rulers -----*/
 hr{
   border-bottom : 20px solid #993a04;
-  width: 75%;
+  width: 66%;
   border-radius : 15px;
   margin-left : auto;
   margin-right : auto;
@@ -29,10 +35,10 @@ hr{
 /*----- Typography -----*/
 h1{
   font-size : 72px;
-  margin : 20px 40px;
+  margin : 20px 40px 5px;
 }
 
-h1, h3{
+h1, h3, h4{
   font-family : cursive;
   color : #993a04;
   font-weight : bold;
@@ -40,10 +46,11 @@ h1, h3{
 }
 
 h3{
-  font-size : 40px;
+  font-size : 36px;
+  margin-top :auto;
 }
 
-h2, p{
+h2, p, li{
   font-family : "Trebuchet MS", "Lucida Sans", arial, sans-serif;
 }
 
@@ -54,12 +61,17 @@ h2{
   text-shadow : 1px 1px 2px black;
 }
 
-p{
+p, li{
   font-size : 20px;
 }
 
 nav{
   font-size : 36px;
+}
+
+h4{
+  font-size : 16px;
+  margin-top: 50%
 }
 
 a:link    { color: #4A306D;  }/*----- Cyber Grape -----*/
