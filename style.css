@@ -7,22 +7,27 @@ body{
 
 header, footer{
   background-color : #297373;
-  height : 124px;
-  padding : 20px 40px;
+  height : 155px;
   text-align : center;
 }
-/*----- Horizontal Rules as an Image -----*/
+
+li{
+  list-style-position: inside;
+  text-align : left;
+}
+
+/*----- Horizontal Rulers -----*/
 hr{
-  height : 62px;
-  background-image : url(images/hr-cameron-queen1.png);
-  background-repeat : no-repeat;
-  background-position : center;
+  border-bottom : 20px solid #f79256;
+  width: 75%;
+  border-radius : 15px;
+  margin-left : auto;
+  margin-right : auto;
 }
   
 /*----- Typography -----*/
 h1{
-  font-size : 36px;
-  padding : 10px 20px;
+  font-size : 24px;
 }
 
 h1, h3{
@@ -37,13 +42,14 @@ h3{
 }
 
 h2, p{
-  color : #2e282a;
   font-family : "Trebuchet MS", "Lucida Sans", arial, sans-serif;
 }
 
 h2{
-  font-size : 28px;
+  font-size : 36px;
   font-weight : bold;
+  color : #297373;
+  text-shadow : 1px 1px 2px black;
 }
 
 p{
