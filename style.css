@@ -23,7 +23,9 @@ header, footer{
 }
 
 img{
-  margin-left : 33%;
+  max-width : 100%;
+  height : auto;
+  margin : auto;
   float : none;
   vertical-align: baseline;
 }
