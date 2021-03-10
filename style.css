@@ -37,7 +37,9 @@ ol, ul{
 
 /*----- Horizontal Rulers -----*/
 hr{
-  border-bottom : 20px solid #993a04;
+  border : none;
+  height : 20px;
+  background-color : #993a04;
   width: 66%;
   border-radius : 15px;
   margin-left : auto;
